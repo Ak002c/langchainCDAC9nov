@@ -32,6 +32,11 @@ def puzzles(puzzleName):
         return """A woman opened a door, screamed and was found dead a few minutes later. 
         No gunshots were heard in the area. 
         What happened to her?"""
+    elif puzzleName == "3 Bulbs and 3 Switches":   
+        return """There is a room with a door (closed) and three light bulbs inside the room. Outside the room, 
+        there are three switches, connected to the bulbs. You may manipulate the switches as you wish, but once you open the door you can’t change them. All bulbs are in working condition and you can open the door only once. 
+        Identify each switch with respect to its bulb?"""
+    
     else:
         return """Four men, one of whom was known to have committed a certain crime, 
         made the following statements when questioned by the police:
